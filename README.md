@@ -4,11 +4,28 @@ An AI-powered web application for predicting and visualizing crystal structures 
 
 ## Features
 
-- Predict crystal structures and material properties using AI (Gemini & OpenAI APIs)
-- Query Materials Project database
-- Interactive 3D visualization with py3Dmol
-- User-friendly Streamlit interface
-- Extensible for research and educational use
+### Core Features
+
+- **AI-Powered Predictions:**
+   - Predict crystal structures and material properties using advanced AI models (Gemini & OpenAI APIs).
+- **Materials Project Integration:**
+   - Seamlessly query the Materials Project database for real-world materials data and properties.
+- **Interactive 3D Visualization:**
+   - Visualize crystal structures and materials in 3D using py3Dmol for enhanced understanding and presentation.
+- **Modern Web Interface:**
+   - Intuitive, user-friendly interface built with Streamlit for easy access and rapid prototyping.
+- **Extensible & Customizable:**
+   - Designed for research, education, and further development in materials science and AI.
+
+### Evaluation Models
+
+- **Supported Models:**
+   - Gemini (Google Generative AI)
+   - OpenAI GPT models
+- **Model Selection:**
+   - Easily switch between evaluation models for comparison and benchmarking.
+- **Performance Metrics:**
+   - Evaluate predictions using accuracy, reliability, and scientific relevance.
 
 ## Getting Started
 
@@ -74,6 +91,7 @@ priyanshusinha.mst24@itbhu.ac.in
 
 ---
 
-**Developed at:**  
-School of Materials Science and Technology
+**Developed at:**
+
+School of Materials Science and Technology  
 Indian Institute of Technology (IIT BHU), Varanasi
