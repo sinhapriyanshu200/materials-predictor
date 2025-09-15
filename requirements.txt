@@ -1,0 +1,16 @@
+streamlit
+python-dotenv
+openai
+google-generativeai
+mp-api
+py3Dmol
+requests
+pandas
+numpy
+matplotlib
+scipy
+plotly
+jinja2
+flask
+fastapi
+uvicorn
