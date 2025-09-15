@@ -35,21 +35,31 @@ An AI-powered web application for predicting and visualizing crystal structures 
 - API keys for Gemini, OpenAI, and Materials Project (see below)
 
 ### Installation
+> **Note:** For Option A, please install [Anaconda](https://www.anaconda.com/products/distribution) before running the Conda commands.
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/sinhapriyanshu200/materials-predictor.git
    cd materials-predictor
    ```
-2. Create and activate a virtual environment:
+
+2. (Option A) Create and activate a Conda environment using `matenv.yaml`:
+   ```bash
+   conda env create -f matenv.yaml
+   conda activate matenv
+   ```
+
+   (Option B) Create and activate a virtual environment using venv:
    ```bash
    python3 -m venv venv
    source venv/bin/activate
    ```
-3. Install dependencies:
+
+3. Install dependencies (if using venv):
    ```bash
    pip install -r requirements.txt
    ```
+
 4. Add your API keys to a `.env` file (do not commit this file):
    ```
    OPENAI_API_KEY=your_openai_key
@@ -94,4 +104,6 @@ priyanshusinha.mst24@itbhu.ac.in
 **Developed at:**
 
 School of Materials Science and Technology  
-Indian Institute of Technology (IIT BHU), Varanasi
+Indian Institute of Technology (IIT BHU), Varanasi  
+Uttar Pradesh, India-221005
+
