@@ -268,7 +268,7 @@ st.markdown("Enter **Requirements to be present in material** and let AI suggest
 
 user_query = st.text_input(
     "Enter your materials design goal:",
-    placeholder="e.g., transparent conductor, battery cathode"
+    placeholder="e.g., material with pyrochlore crystal strucutre"
 )
 
 if st.button("Find Best Material"):
@@ -282,9 +282,9 @@ if st.button("Find Best Material"):
 
         st.subheader("🤖 Suggested Formulas")  # LLM suggestions headline
         col1, col2 = st.columns(2)
-        col1.write("**LLM A Suggestions:**")
+        col1.write("**Model A Suggestions:**")
         col1.write(openai_formulas)
-        col2.write("**LLM B Suggestions:**")
+        col2.write("**Model B Suggestions:**")
         col2.write(gemini_formulas)
 
         # Combine suggestions but deduplicate while preserving order (do not show this intermediate list to the user)
