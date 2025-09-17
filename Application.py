@@ -97,7 +97,7 @@ def generate_gemini_formulas(user_prompt):
     """Generate material formulas using Google Gemini."""
     try:
         prompt = (
-            f"Suggest a Python list of 10 chemical formulas (e.g., ['TiO2', 'ZnO', ...]) for the following design goal:\n"
+            f"Suggest a Python list of most relevant and valid chemical formulas (e.g., ['TiO2', 'ZnO', ...]) for the following design goal:\n"
             f"'{user_prompt}'\n"
             f"Reply ONLY with the list."
         )
