@@ -268,7 +268,7 @@ st.markdown("Enter **Requirements to be present in material** and let AI suggest
 
 user_query = st.text_input(
     "Enter your materials design goal:",
-    placeholder="e.g., material with pyrochlore crystal strucutre"
+    placeholder="e.g., materials useful for radiation shielding"
 )
 
 if st.button("Find Best Material"):
@@ -328,7 +328,7 @@ if st.button("Find Best Material"):
 
             st.table(table_data)  # Show results table
 
-            # CSV download (manual build)
+            # CSV download
             import csv
             from io import StringIO
 
