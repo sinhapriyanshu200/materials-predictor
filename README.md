@@ -2,7 +2,7 @@
 
 An AI-powered web application that predicts the three most stable materials and provides interactive 3D visualizations of their crystal structures and key material properties. Built with Streamlit, it seamlessly integrates Gemini, OpenAI models, and the Materials Project API, making it a powerful tool for materials science research, discovery, and education. 
 
-Developed & maintained at IIT (BHU), Varanasi, specifically for material scientists.
+Developed at IIT (BHU), Varanasi
 
 ## Features
 
